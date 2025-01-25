@@ -1,0 +1,19 @@
+.navbar {
+  background-color: var(--fontColorLowOpacity);
+  transition: transform 0.5s ease-in;
+}
+
+.active {
+  color: var(--activeFontColor);
+}
+
+.navbarMenuButton {
+  top: 5px;
+  right: -20px;
+}
+
+@media screen and (max-width: 640px) {
+  .navbar {
+    left: -50%;
+  }
+}

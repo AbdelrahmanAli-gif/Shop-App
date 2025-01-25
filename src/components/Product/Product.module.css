@@ -1,0 +1,7 @@
+.productImg {
+  transition: transform 0.3s ease-in;
+}
+
+.productImg:hover {
+  transform: translateY(-10px);
+}

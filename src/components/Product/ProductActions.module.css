@@ -1,0 +1,20 @@
+.addToCartBtn,
+.detailsBtn {
+  transition: background-color 0.3s ease-in;
+}
+
+.detailsBtn {
+  background-color: var(--fontColorLowOpacity);
+}
+
+.addToCartBtn {
+  background-color: var(--pinkColorLowOpacity);
+}
+
+.detailsBtn:hover {
+  background-color: var(--fontColor);
+}
+
+.addToCartBtn:hover {
+  background-color: var(--pinkColor);
+}

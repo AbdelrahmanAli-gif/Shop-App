@@ -1,0 +1,11 @@
+:global(.carousel .slide) {
+  background: none;
+}
+
+:global(.carousel .control-next.control-arrow:before) {
+  border-left: 8px solid black;
+}
+
+:global(.carousel .control-prev.control-arrow:before) {
+  border-right: 8px solid black;
+}

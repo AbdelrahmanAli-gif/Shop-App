@@ -1,0 +1,11 @@
+.activePage {
+  background-color: var(--activeFontColor);
+}
+
+.pageBtn:not(.activePage):hover {
+  background-color: var(--fontColorLowOpacity);
+}
+
+.disabledPageBtn {
+  color: var(--fontColorLowOpacity);
+}

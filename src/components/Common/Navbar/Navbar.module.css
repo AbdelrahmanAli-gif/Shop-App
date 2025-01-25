@@ -1,0 +1,39 @@
+.navbar {
+  background-color: var(--backgroundColor);
+}
+
+.navbarLinks {
+  transition: all 0.5s ease-in;
+  background-color: var(--backgroundColor);
+}
+
+.navbarLinks a:hover {
+  transform: translateY(-5px);
+  color: var(--activeFontColor);
+}
+
+.navbarLinks a {
+  transition: transform 0.3s ease-in;
+}
+
+:global(.active),
+:global(.icon) {
+  color: var(--activeFontColor);
+}
+
+.counter {
+  background-color: var(--pinkColor);
+  top: -25%;
+  right: -25%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbarLinks::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--fontColorLowOpacity);
+    right: 100%;
+  }
+}

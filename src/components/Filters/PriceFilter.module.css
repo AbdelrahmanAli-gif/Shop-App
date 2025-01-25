@@ -1,0 +1,34 @@
+.slider {
+  background-color: var(--activeFontColor);
+}
+
+.slider,
+:global(.track-0),
+:global(.track-1),
+:global(.track-2) {
+  height: 2px;
+}
+
+:global(.track-0),
+:global(.track-2) {
+  background-color: var(--fontColor);
+}
+
+.thumb {
+  width: 2px;
+  height: 25px;
+  cursor: grab;
+  top: -12px;
+  border: 2px solid var(--activeFontColor);
+  background-color: white;
+}
+
+.filterBtn,
+:global(.clear-filters-btn) {
+  transition: background-color 0.3s ease-in;
+}
+
+.filterBtn:hover,
+:global(.clear-filters-btn:hover) {
+  background-color: var(--activeFontColor);
+}

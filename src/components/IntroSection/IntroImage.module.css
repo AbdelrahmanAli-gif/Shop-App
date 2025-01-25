@@ -1,0 +1,13 @@
+.imageContainer {
+  height: 550px;
+  background-image: url("/intro-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--fontColorLowOpacity);
+  background-blend-mode: multiply;
+}
+
+.imageContainer button:hover {
+  background-color: var(--activeFontColorLowOpacity);
+}
