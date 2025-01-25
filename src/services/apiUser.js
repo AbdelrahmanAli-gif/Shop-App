@@ -55,5 +55,3 @@ export async function getAllOrders() {
     }
     return data;
 }
-
-getAllOrders();
