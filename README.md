@@ -2,37 +2,46 @@
 
 ## Overview
 
-This project is a React-based application that integrates with Supabase for authentication and backend services. Key features include:
-- Authentication: User login and signup functionality using Supabase.
-- State Management: Centralized state management with useReducer and useContext.
-- Routing: Protected routes and dynamic navigation using react-router-dom.
+This is an E-Commerce Shop application built with React and Vite. It provides a minimal setup to get a fully functional e-commerce platform with features like product listing, cart management, user authentication, and an admin dashboard.
 
 ## Features
 
-- User Authentication: Login, signup, and logout functionality.
-- Protected Routes: Ensure access is restricted based on user authentication.
-- Global State Management: Efficient handling of shared state using React hooks.
-- Responsive Design: Optimized for both desktop and mobile devices.
+- **Product Listing**: Browse through a list of products with categories and filters.
+- **Product Details**: View detailed information about each product.
+- **Cart Management**: Add products to the cart and place orders.
+- **User Authentication**: Sign up and log in to manage your cart and orders.
+- **Admin Dashboard**: Admins can manage products, users, and orders.
+- **Responsive Design**: The application is fully responsive and works on all devices.
 
 ## Usage
 
-### Authentication
+### User Authentication
+- Sign Up: Navigate to the sign-up page and create a new account.
+- Login: Navigate to the login page and log in with your credentials.
 
-- Signup: Create a new user account.
-- Login: Authenticate an existing user.
-- Logout: End the user session.
+### Browsing Products
+- Homepage: Browse through the featured products and categories.
+- Product Listing: Navigate to the products page to see all available products.
+- Product Details: Click on a product to view its details.
 
-### Navigation
+### Cart Management
+- Add to Cart: Click on the "Add to Cart" button on a product to add it to your cart.
+- View Cart: Navigate to the cart page to view the items in your cart.
+- Place Order: Click on the "Place Order" button to place an order for the items in your cart.
 
-- Protected routes redirect unauthenticated users to the login page.
-- Authenticated users can access restricted pages.
+### Admin Dashboard
+- Manage Products: Navigate to the admin dashboard and manage products (add, edit, delete).
+- Manage Users: Navigate to the admin dashboard and manage users.
+- Manage Orders: Navigate to the admin dashboard and manage orders.
 
 ## Technologies Used
 
-- Frontend: React, React Router
-- Backend: Supabase (Authentication and Database)
-- State Management: useReducer, useContext
-- Styling: Tailwind CSS
+- React: JavaScript library for building user interfaces.
+- Vite: Next-generation frontend tooling.
+- Tailwind CSS: Utility-first CSS framework.
+- Supabase: Backend as a service for database and authentication.
+- React Router: Declarative routing for React.
+- FontAwesome: Icon library for React.
 
 ### Demo
 
